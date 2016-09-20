@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<meta content="telephone=no" name="format-detection" />
+<meta name="author" content="order by dede58.com"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="renderer" content="webkit">
+<!--360默认急速模式打开-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+<meta name="full-screen" content="yes">
+<link rel="stylesheet" href="/skin/css/cui.css" />
+<link rel="stylesheet" href="/skin/css/style.css" />
+<link rel="stylesheet" href="/skin/css/less.css" />
+</head>
+<body>
+{dede:include filename="head.htm"/}
+<div class="c"></div>
+<div id="bd">
+  <div id="banner">
+    <div class="banner-bg"></div>
+    <div class="flexslider">
+      <ul class="slides">
+        <li class="s1"> <img src="/skin/images/banner1.jpg" alt="某某网站建设，北京网站建设">
+          <div class="ban-txt">
+            <h5 data-animate="fadeInDown" class="animated">innovating for you</h5>
+            <h2 data-animate="fadeInRight" class="animated">用整合的思想做互动</h2>
+            <h3 data-animate="fadeInUp" class="animated">不只是建站，更提供有价值的思路和整体服务</h3>
+          </div>
+        </li>
+        <li class="s2"> <img src="/skin/images/banner2.jpg" alt="某某，8年专注高端网站定制服务">
+          <div class="ban-txt">
+            <h2 data-animate="fadeInRight" class="animated">9年资深网站建设经验</h2>
+            <h3 data-animate="fadeInDown" class="animated">WEBSITE DESIGN</h3>
+            <h4 data-animate="fadeInUp" class="animated">我们专注于品质化高端网站构建，企业品牌在网站中的整体树立，网络互动的体验，以及在手机等移动端的优质呈现。</h4>
+            <h6 data-animate="fadeInUp" class="animated">www.dede58.com</h6>
+          </div>
+        </li>
+        <li class="s3"> <img src="/skin/images/banner3.jpg" alt="网站建设，北京网站建设">
+          <div class="ban-txt">
+            <h2 data-animate="fadeInDown" class="animated">高端定制 品牌设计</h2>
+            <h3 data-animate="fadeInRight" class="animated">Corporate website</h3>
+            <h4 data-animate="fadeInUp" class="animated">某某致力于为客户提供最具有竞争力的网站，将每个案例都做成经典。</h4>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <!-- end #banner -->
+  <div class="row1 fix">
+    <div class="wp">
+      <div class="tit-i">
+        <h3>我们的服务</h3>
+        <h5>WEBTHINK <span>SERVICE</span></h5>
+      </div>
+      <ul class="ul-icon-i">
+        <li class="li1">
+          <div class="pad"> <a href=""> <span></span>
+            <h3>高端网站建设</h3>
+            <em></em>
+            <p>根据用户的需求、市场状况、企业情况提供专业化的网站策划、交互设计、技术和营销解决方案。</p>
+            <div class="pic"> <img src="/skin/images/m1.png" alt=""> <img src="/skin/images/m2.png" alt="" class="pic-icon"> </div>
+            </a> </div>
+        </li>
+        <li class="li2">
+          <div class="pad"> <a href=""> <span></span>
+            <h3>手机网站建设</h3>
+            <em></em>
+            <p>在移动互联时代，我们得出“简单使用，精彩体验”的移动应用开发理念，创造属于无线时代的精彩互联。</p>
+            <div class="pic"> <img src="/skin/images/m3.png" alt=""> <img src="/skin/images/m4.png" alt="" class="pic-icon"> </div>
+            </a> </div>
+        </li>
+        <li class="li3">
+          <div class="pad"> <a href=""> <span></span>
+            <h3>微信应用开发</h3>
+            <em></em>
+            <p>为客户提供全方位的移动端营销服务，微信公众平台开发，微站设计。</p>
+            <div class="pic"> <img src="/skin/images/m5.png" alt=""> <img src="/skin/images/m6.png" alt="" class="pic-icon"> </div>
+            </a> </div>
+        </li>
+        <li class="li4">
+          <div class="pad"> <a href=""> <span></span>
+            <h3>手机APP开发</h3>
+            <em></em>
+            <p>按客户意图来定制开发app系统，IOS 安卓任您挑选，持续为企业无线创造新价值。</p>
+            <div class="pic"> <img src="/skin/images/m7.png" alt=""> <img src="/skin/images/m8.png" alt="" class="pic-icon"> </div>
+            </a> </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="row2 fix">
+    <div class="wp">
+      <div class="tit-i">
+        <h3>我们的案例</h3>
+        <h5><span>case</span> of us</h5>
+      </div>
+      <div class="case-i">
+        <div class="case-i-r" style="width: 100%;">
+          <ul class="ul-case-i">
+            {dede:arclist row='8'  titlelen='32' typeid='1'}
+            <li> <a href="[field:arcurl/]">
+              <div class="pic"><img src="[field:picname/]" alt="[field:title/]"></div>
+              <div class="hover"> <b></b>
+                <div class="txt"> <img src="/skin/images/logo_small.png" alt="">
+                  <h3>[field:title/]</h3>
+                </div>
+              </div>
+              </a> </li>
+            {/dede:arclist}
+          </ul>
+        </div>
+        <div class="c"></div>
+        <div class="more-i">{dede:type typeid='1'}<a href="[field:typelink/]"></a>{/dede:type}</div>
+      </div>
+    </div>
+  </div>
+  <div class="row3 news-bg">
+    <div class="wp">
+      <div class="tit-i tit-i-1">
+        <h3>最新动态</h3>
+        <h5>our <span>news</span></h5>
+      </div>
+      <ul class="ul-news-i">
+        {dede:arclist row='4' infolen='120' titlelen='32' typeid='10'}
+        <li>
+          <div class="pad">
+            <div class="txt"> <span><em>[field:pubdate function="MyDate('m/d',@me)"/]</em>[field:pubdate function="MyDate('Y',@me)"/]</span>
+              <h3><a href="[field:arcurl/]">[field:title/]</a></h3>
+              <p>[field:info/]...</p>
+              <a href="[field:arcurl/]" class="more"></a> </div>
+            <div class="hover">
+              <div class="img" style="background: url([field:picname/]) 0 0 /100% 100% no-repeat;background: url([field:picname/]) 0 0 no-repeat\9;"></div>
+              <div class="pad">
+                <h3><a href="[field:arcurl/]">[field:title/]</a></h3>
+                <p>[field:info/]...</p>
+              </div>
+            </div>
+          </div>
+        </li>
+        {/dede:arclist}
+      </ul>
+      <div class="c"></div>
+      <div class="news-more">{dede:type typeid='10'}<a href="[field:typelink/]">load more</a>{/dede:type}</div>
+    </div>
+  </div>
+  <div class="row4 fix">
+    <div class="wp">
+      <div class="tit-i">
+        <h3>联系我们</h3>
+        <h5><span>contact</span> dede58</h5>
+      </div>
+      <div class="contact-l">
+        <ul class="ul-contact">
+          <li class="li1">重庆市南岸区幸福大道万达广场88-34</li>
+          <li class="li2"><a href="tel:15325689856">15325321656 (咨询) / <a href="tel:023-63695689">023-63695689 (售后)<br />
+            <a href="tel:400-500-8888">400-500-8888 (咨询)</a></li>
+          <li class="li3"><a href="mailto:329435596@qq.com">329435596@qq.com</a></li>
+        </ul>
+      </div>
+      <div class="contact-r">
+        <form action="/plus/diy.php" class="contact-form" enctype="multipart/form-data" method="post">
+          <input type="hidden" name="action" value="post" />
+          <input type="hidden" name="diyid" value="1" />
+          <input type="hidden" name="do" value="2" />
+          <div class="">
+            <input type="text" class="inp l" name="name" id="name" placeholder="您的姓名">
+            <input type="text" class="inp r" name="tel" id="tel" placeholder="您的联系方式">
+          </div>
+          <textarea cols="30" rows="10" name="nr" id="nr"></textarea>
+          <input type="hidden" name="dede_fields" value="name,text;tel,text;nr,text" />
+          <input type="hidden" name="dede_fieldshash" value="1150bc325e255641e2db4115e8c9c51f" />
+          <input type="submit" value="提交您的需求" class="sub" id="sub">
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="map">
+    <div class="map-s"> <a href="javascript:void(0);" class="btn"><em></em>点击展开地图</a> </div>
+    <div class="map-pop"> <a href="javascript:void(0);" class="btn-down"></a>
+      <div class="map-bg1"></div>
+      <div class="map-bg2"></div>
+      <div id="map" class="map-i" style="width:100%; height: 100%;"> </div>
+    </div>
+  </div>
+</div>
+<!-- end #bd -->
+<div class="c"></div>
+<!-- begin #fd --> 
+{dede:include filename="footer.htm"/} 
+<script type="text/javascript" src="/skin/js/jquery.js"></script> 
+<script type="text/javascript" src="/skin/js/lib.js"></script>
+<link rel="stylesheet" href="/skin/css/animate.css" />
+<link rel="stylesheet" href="/skin/css/flexslider.css" />
+<script type="text/javascript" src="/skin/js/flexslider.js"></script> 
+<script type="text/javascript" src="/skin/js/banner.js"></script> 
+<script>
+$('.ul-news-i li').hover(function(){
+$(this).toggleClass('on');
+})
+$('.ul-icon-i li').hover(function(){
+$(this).find('img:first').fadeIn(100);
+$(this).find('.pic-icon').animate({top:0});
+},function(){
+$(this).find('.pic-icon').animate({top:-134});
+$(this).find('img:first').fadeOut(100);
+})
+
+$('.case-img').hover(function(){
+$(this).toggleClass('on');
+})
+
+$('.map .btn').click(function(){
+$('.map-pop').show();
+$(this).parents('.map').addClass('map-big-i');
+var winW = $(window).width();
+var winH = $(window).height();
+console.log(winH);
+if(winW < 768){
+$('.map-pop').height($(window).height()-50-80);
+$('.map-big-i').height($(window).height()-50-80);
+$("html, body").animate({ scrollTop: $(document).height() }, 1000);
+}else{
+
+$('.map-pop').height($(window).height()-344);
+$('.map-big-i').height($(window).height()-344);
+$("html, body").animate({ scrollTop: $(document).height() }, 1000);
+}
+initMap();
+})
+$('.map .btn-down').click(function(){
+$('.map-pop').hide();
+$(this).parents('.map').removeClass('map-big-i');
+$('.map').height('107');
+})
+
+</script> 
+<script type="text/javascript" src="/skin/js/ditu.js"></script> 
+<script type="text/javascript" src="/skin/js/map.js"></script>
+</body>
+</html>
