@@ -19,6 +19,6 @@ $cfg_Cs[15]=array(14,1,1,'55So5oi35L2T6aqM');
 $cfg_Cs[16]=array(14,1,1,'6KeG6KeJ6K6+6K6h');
 $cfg_Cs[17]=array(14,1,1,'5Lqk5LqS6K6+6K6h');
 $cfg_Cs[18]=array(14,1,1,'5Yib5Lia6K6+6K6h');
-$cfg_Cs[19]=array(14,1,1,'6K6+6K6h566h55CG');
+$cfg_Cs[19]=array(14,1,1,'5YW25LuW55+l6K+G');
 $cfg_Cs[20]=array(0,1,1,'6IGU57O75oiR5Lus');
 ?>
